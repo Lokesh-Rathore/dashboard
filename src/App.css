@@ -1,0 +1,23 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ background-color: #2F323B;
+}
+.App{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100vw;
+ height: 100vh;
+}
+.AppGlass{
+ overflow: hidden;
+ height: 100%;
+ width: 100%;
+ /* background-color: white; */
+ display: grid;
+ grid-template-columns: 13rem auto 18rem;
+}
